@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>BREAD</title>
+</head>
+
+<body class="container">
+    <div>
+        <h1>Add Data</h1>
+        <form action="/add" method="post">
+            <table>
+                <tr>
+                    <td>
+                        String
+                    </td>
+                    <td>
+                        <input type="text" placeholder="String" name="string">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Integer
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Integer" name="integer">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Float
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Float" name="float">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        <input type="date" placeholder="start date" name="dtes" style="width: 20%;"><br>
+                        <label for="">to</label><br>
+                        <input type="date" placeholder="end date" name="dte" style="width: 20%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Boolean
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Choose the boolean.." name="boolean">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit" class="btn">Simpan</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
